@@ -1,6 +1,8 @@
 package com.applifit.bilifit.server.formulaires.DAO;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import com.applifit.bilifit.server.comptes.Compte;
@@ -11,16 +13,19 @@ import com.googlecode.objectify.Key;
 import com.googlecode.objectify.Objectify;
 import com.googlecode.objectify.ObjectifyService;
 
-public class Element_valeurDaoImpl implements Element_valeurDao{
-	
-	static {  
-        ObjectifyService.register(Element_valeur.class);  
-    }
+public class Element_valeurDaoImpl implements Element_valeurDao {
+
+	static {
+		ObjectifyService.register(Element_valeur.class);
+	}
 
 	@Override
-	public Element_valeur ajouterValeur(String valeur, long element, long compte , String date, int indice) {
+	public Element_valeur ajouterValeur(String valeur, long element,
+			long compte, String date, int indice) {
 		Objectify ofy = ObjectifyService.begin();
-		Element_valeur ev = new Element_valeur(valeur, new Key<Element>(Element.class, element) ,new Key<Compte>(Compte.class, compte) , date, indice);
+		Element_valeur ev = new Element_valeur(valeur, new Key<Element>(
+				Element.class, element), new Key<Compte>(Compte.class, compte),
+				date, indice);
 		ofy.put(ev);
 		return ev;
 	}
@@ -28,17 +33,18 @@ public class Element_valeurDaoImpl implements Element_valeurDao{
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public ArrayList getDistinctCompteIndice(ArrayList<Long> e) {
-		
+
 		Objectify ofy = ObjectifyService.begin();
 		List<Key<Element>> elements = new ArrayList();
-		for(int i = 0; i<e.size(); i++)
+		for (int i = 0; i < e.size(); i++)
 			elements.add(new Key<Element>(Element.class, e.get(i)));
-		List<Element_valeur> lev = ofy.query(Element_valeur.class).order("-date").filter("element in ", elements).list();
+		List<Element_valeur> lev = ofy.query(Element_valeur.class)
+				.order("-date").filter("element in ", elements).list();
 		ArrayList comptes = new ArrayList();
 		CompteDaoImpl cdao = new CompteDaoImpl();
 		ArrayList indices = new ArrayList();
-		for(int i = 0 ; i<lev.size(); i++){
-			if(!indices.contains(lev.get(i).getIndice())){
+		for (int i = 0; i < lev.size(); i++) {
+			if (!indices.contains(lev.get(i).getIndice())) {
 				ArrayList compte = new ArrayList();
 				indices.add(lev.get(i).getIndice());
 				Compte c = cdao.getCompteById(lev.get(i).getCompte().getId());
@@ -50,24 +56,26 @@ public class Element_valeurDaoImpl implements Element_valeurDao{
 				comptes.add(compte);
 			}
 		}
-		
+
 		return comptes;
 	}
-	
+
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@Override
-	public ArrayList getDistinctCompteIndice(ArrayList<Long> e , long cid) {
-		
+	public ArrayList getDistinctCompteIndice(ArrayList<Long> e, long cid) {
+
 		Objectify ofy = ObjectifyService.begin();
 		List<Key<Element>> elements = new ArrayList();
 		CompteDaoImpl cdao = new CompteDaoImpl();
-		for(int i = 0; i<e.size(); i++)
+		for (int i = 0; i < e.size(); i++)
 			elements.add(new Key<Element>(Element.class, e.get(i)));
-		List<Element_valeur> lev = ofy.query(Element_valeur.class).filter("element in ", elements).filter("compte", cdao.getCompteById(cid)).list();
+		List<Element_valeur> lev = ofy.query(Element_valeur.class)
+				.filter("element in ", elements)
+				.filter("compte", cdao.getCompteById(cid)).list();
 		ArrayList comptes = new ArrayList();
 		ArrayList indices = new ArrayList();
-		for(int i = 0 ; i<lev.size(); i++){
-			if(!indices.contains(lev.get(i).getIndice())){
+		for (int i = 0; i < lev.size(); i++) {
+			if (!indices.contains(lev.get(i).getIndice())) {
 				ArrayList compte = new ArrayList();
 				indices.add(lev.get(i).getIndice());
 				Compte c = cdao.getCompteById(lev.get(i).getCompte().getId());
@@ -79,14 +87,16 @@ public class Element_valeurDaoImpl implements Element_valeurDao{
 				comptes.add(compte);
 			}
 		}
-		
+
 		return comptes;
 	}
 
 	@Override
 	public Element_valeur getValue(Long element, int indice) {
 		Objectify ofy = ObjectifyService.begin();
-		return ofy.query(Element_valeur.class).filter("element", new Key<Element>(Element.class, element)).filter("indice", indice).get();
+		return ofy.query(Element_valeur.class)
+				.filter("element", new Key<Element>(Element.class, element))
+				.filter("indice", indice).get();
 	}
 
 	@Override
@@ -106,6 +116,9 @@ public class Element_valeurDaoImpl implements Element_valeurDao{
 		Objectify ofy = ObjectifyService.begin();
 		Element_valeur value = getValue(element, indice);
 		value.setValeur(valeur);
+		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm");
+		Date date = new Date();
+		value.setDate(format.format(date));
 		ofy.put(value);
 	}
 

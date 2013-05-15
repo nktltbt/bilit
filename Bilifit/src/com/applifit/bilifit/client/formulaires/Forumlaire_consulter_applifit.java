@@ -1363,8 +1363,10 @@ public class Forumlaire_consulter_applifit implements EntryPoint {
 	public void enregistrerForm() {
 		Calendar c = Calendar.getInstance();
 		int m = c.get(Calendar.MONTH) + 1;
-		String date = c.get(Calendar.YEAR)+"-"+m+"-"+c.get(Calendar.DAY_OF_MONTH)+"%20"+c.get(Calendar.HOUR_OF_DAY)+"%3A"+c.get(Calendar.MINUTE);
-		
+		String date = c.get(Calendar.YEAR) + "-" + m + "-"
+				+ c.get(Calendar.DAY_OF_MONTH) + "%20"
+				+ c.get(Calendar.HOUR_OF_DAY) + "%3A" + c.get(Calendar.MINUTE);
+
 		for (int i = 0; i < elementsAsJSONArray.size(); i++) {
 
 			String value = "%20";
@@ -1468,12 +1470,12 @@ public class Forumlaire_consulter_applifit implements EntryPoint {
 			RequestBuilder builder = new RequestBuilder(RequestBuilder.PUT,
 					VALUE_URL
 							+ "modifierValeur/valeur/"
-							+ value+ "/date/"+date
+							+ value
 							+ "/element/"
 							+ elementAsJSONObject.get("id").isNumber()
 									.toString() + "/indice/" + indice);
 			Window.alert(VALUE_URL + "modifierValeur/valeur/" + value
-					+ "/element/"
+					+ "/date/" + date + "/element/"
 					+ elementAsJSONObject.get("id").isNumber().toString()
 					+ "/indice/" + indice);
 			builder.setHeader("Content-Type", "application/json");
