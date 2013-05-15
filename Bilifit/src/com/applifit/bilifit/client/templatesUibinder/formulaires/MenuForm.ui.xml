@@ -1,0 +1,62 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+	<div>
+		<div id="header">
+
+			<div id="header_barre_noir">
+				<div id="header_texte_accueil" >
+					
+					Bienvenue
+					<b><span ui:field="user" /></b>
+					<a href="#" ui:field="deconnexion" >Déconnexion</a>
+				</div>
+			</div>
+
+			<div id="header_barre_couleur"></div>
+			<div id="header_barre_grise">
+				<div id="header_fleche_couleur">
+					<img src="../images/formulaire/header_fleche.png" />
+				</div>
+
+				<div id="menu">
+					<ul>
+						<li>
+							<a href="#" ui:field="accueil">Accueil</a>
+						</li>
+						<li>|</li>
+						<li>
+							<a href="/GestionClient.html">Administration</a>
+						</li>
+						<li>|</li>
+						<li>
+							<a href="#" ui:field="formulaire">Formulaire</a>
+						</li>
+						<li>|</li>
+						<li>
+							<a href="#">Dashboard</a>
+						</li>
+						<li>|</li>
+						<li>
+							<a href="Bdd_applifit.html">Base de données</a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+
+			<div class="clear_both"></div>
+
+			<div id="container_titre">
+				<img src="../images/formulaire/header_couleur_logo.png" />
+				<br />
+				Formulaire
+			</div>
+
+		</div>
+		<div id="logo_small">
+			<img src="../images/general/logo_small.png" />
+		</div>
+
+
+	</div>
+</ui:UiBinder>

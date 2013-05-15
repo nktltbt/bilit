@@ -1,0 +1,259 @@
+@CHARSET "UTF-8";
+
+/* CSS Document */  
+
+/* CSS ------ HEADER ------ */ 
+/* CSS ------ HEADER ------ */ 
+/* CSS ------ HEADER ------ */ 
+
+
+.passeHidden
+	{
+	display:none;
+	}
+	
+.passeVisible
+	{
+	display:block;
+	}
+
+#header_barre_couleur  
+	{
+	background-color:#89ba3a; /* Modifier selon la couleur général du thème */
+	}
+
+#container_titre 
+	{
+	background-color:#89ba3a; /* Modifier selon la couleur général du thème */
+	}
+
+.menu_active
+	{
+	color:#89ba3a;
+	}
+	
+/* CSS ------ CONTAINER (ordre Alphab) ------ */ 
+/* CSS ------ CONTAINER ------ */ 
+/* CSS ------ CONTAINER ------ */ 
+
+#container_principal
+	{
+	color:#89ba3a;  /* Modifier selon la couleur général du thème */
+	}
+	
+.formulaire_entete
+	{
+	}
+
+.formulaire_normal
+	{
+	background-color:#eff4dd;	
+	width:82%;
+	margin:0px auto 10px auto;
+	}	
+
+#form_colonne1
+	{
+	width:45%;
+	margin:3px 5% 3px 3px;
+	border:none;
+	float:left;
+	}
+
+#form_colonne2
+	{
+	width:45%;
+	margin:3px;
+	float:left;
+	border:none;
+	}
+	
+.images_info_bilifit
+	{
+	margin:30px;
+	float:left;
+	}
+
+.infos_collaborateurs
+	{
+	font-size:14px;
+	color:#333333;
+	text-align:left;
+	width:82%;
+	margin:0px auto 10px auto;
+	}
+	
+#link_nouveaux_collaborateurs a
+	{	
+	margin:10px 0px 10px 40px;
+	color:#6a6b6f;
+	}	
+		
+#link_nouveaux_collaborateurs a:hover
+	{
+	color:#b9b6b7;
+	}			
+
+#margin_facturation
+	{
+	line-height:25px;
+	width:30%;
+	margin:30px;
+	font-size:14px;
+	color:#333333;
+	font-weight:600;
+	display:block;
+	float:left;
+	}
+
+.facturation_cachee
+	{
+	background-color:#eff4dd;	
+	width:82%;
+	margin:0px auto 10px auto;
+	
+	}
+	
+#margin_facturation a
+	{
+	color:#333;
+	}
+
+#margin_facturation a:hover
+	{
+	color:#000;
+	}
+
+
+	
+#photo_entreprise
+	{
+	margin:40px 40px 0px 40px;
+	width:145px;
+	height:90px;
+	background-color:#839ccc;
+	text-align:center;
+	padding-top:80px;
+	color:#fff;
+	float:left;
+	}
+	
+.text_infos_bilifit
+	{
+	float:left;
+	text-align:left;
+	font-size:14px;
+	color:#333333;
+	font-weight:600;
+	margin:30px 30px 30px 60px;
+	}
+
+/* CSS ------ TABLE ------ */ 
+/* CSS ------ TABLE ------ */ 
+/* CSS ------ TABLE ------ */ 
+
+#table_infos_collaborateurs
+	{
+	margin-top:10px;
+	width:100%;
+	}
+
+.table_ligne_clair
+	{
+	padding-left:30px;
+	height:30px;
+	background-color:#e0dede;
+	color:#000;	
+	}
+.table_ligne_fonce
+	{
+	padding-left:30px;
+	height:30px;
+	background-color:#b9b6b7;
+	color:#000;	
+	}
+	
+	
+.table_ligne_haute
+	{
+	padding-left:30px;
+	height:30px;
+	background-color:#6a6b6f;
+	color:#FFF;
+	font-weight:bold;
+	}
+
+/* CSS ------ FORMULAIRE ------ */ 
+/* CSS ------ FORMULAIRE ------ */ 
+/* CSS ------ FORMULAIRE ------ */ 
+
+label
+	{
+	height:25px;
+	width:30%;
+	margin:4px 3px 3px 3px;
+	font-size:14px;
+	color:#333333;
+	font-weight:600;
+	display:block;
+	float:left;
+	}
+	
+input
+	{
+	display:block;
+	font-size:14px;
+	margin:3px;
+	border:none;	float:left;
+	}
+	
+button[type=button] 
+	{
+	cursor: pointer;
+	width: 160px;
+	height: 22px; 
+	background:#89ba3a;
+	color:#fff;
+	font-weight:bold;
+	border:0px;
+	float:right;
+	margin:40px 4% 0px 0px;
+	}
+
+button[type=button]:hover 
+	{
+background:#eff4dd;
+color:#000;
+	}
+	
+.entete_open { cursor:pointer;background-color:#89ba3a; background-image:url("images/general/icon_toggle_up.png");background-repeat:no-repeat;background-position:right;}
+.entete_ferme { cursor:pointer;background-color:#c9e2a6;background-image:url("images/general/icon_toggle_down.png");background-repeat:no-repeat;background-position:right;}
+	
+.img_edit img{
+	width:40px;
+	cursor:pointer;
+}
+
+.block{
+	display:block !important;
+}
+
+#form_colonne1 label{
+	width:50%;
+}
+
+#form_colonne1 input{
+	width:100%;
+}
+
+
+#form_colonne2 label{
+	width:52%;
+}
+
+#form_colonne2 input{
+	width:100%;
+}
+
+
+/* CSS ------ DIVERS ------ */ 

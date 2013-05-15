@@ -1,0 +1,43 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+	<ui:style>
+		
+	</ui:style>
+	<div class="clear_both">
+		<div>
+			<div class="switch_entete3 switch_entete formulaire_entete entete_ferme" onclick="$(this).toggleClass('entete_ferme');$(this).toggleClass('entete_open');$('.cachee').fadeToggle('fast', 'linear');">
+				<span class="titre_entete">Infos bi-lifit</span>
+			</div>
+			<div class="cachee formulaire_normal " style="display: none;">
+				<div class="text_infos_bilifit">
+					Quota nb formulaires
+					<br/>
+						<br/>
+							Quota nb collaborateurs
+				</div>
+
+				<div class="images_info_bilifit">
+					<img src="/images/administration/info_bilifit1.png"/>
+						<br/>
+							<br/>
+								<img src="images/administration/info_bilifit1.png"/>
+				</div>
+				<div class="text_infos_bilifit">
+					Quota stockage
+					<br/>
+						<br/>
+							Quota bande passante
+				</div>
+				<div class="images_info_bilifit">
+					<img src="images/administration/info_bilifit1.png"/>
+						<br/>
+							<br/>
+								<img src="images/administration/info_bilifit1.png"/>
+				</div>
+
+				<div class="clear_both"></div>
+
+			</div>
+		</div>
+	</div>
+</ui:UiBinder>

@@ -1,0 +1,74 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+	<ui:style>
+	
+	</ui:style>
+	<div>
+	<div id="form_creation_compteclients">
+        	<h1>Création d'un compte client</h1>
+            
+              <form id="creation_compteclients">
+              		
+                  <fieldset>
+                        <legend>Infos entreprise</legend>
+                        <label class="form_compteclients" for="compteclients_">Raison Sociale*</label>
+                        <input class="form_compteclients" name="compteclients_" type="text" ui:field="form_RS" required=""/>
+                        
+                        <label class="form_compteclients" for="compteclients_">SIRET*</label>
+                        <input class="form_compteclients" name="compteclients_" type="text" ui:field="siret" required=""/>
+
+                        <label class="form_compteclients" for="compteclients_">Adresse*</label>
+                        <input class="form_compteclients" name="compteclients_" type="text" ui:field="adresse" required=""/>
+                        
+                        <label class="form_compteclients" for="compteclients_">Ville*</label>
+                        <input class="form_compteclients" name="compteclients_" type="text" ui:field="ville" required=""/>
+                        
+                        <label class="form_compteclients" for="compteclients_">CP*</label>
+                        <input class="form_compteclients" name="compteclients_" type="text" ui:field="cp" required=""/>
+                        
+                        <label class="form_compteclients" for="compteclients_">Pays</label>
+                        <input class="form_compteclients" name="compteclients_" type="text" ui:field="pays"/>    
+                        
+                        <label class="form_compteclients" for="compteclients_">Offre Souscrite*</label>
+                        <input class="form_compteclients" name="compteclients_" type="text" ui:field="offre"/>
+                        
+                        <label class="form_compteclients" for="compteclients_">Date de création*</label>
+                        <input class="datepicker form_compteclients" name="compteclients_" type="text" ui:field="date" />                                                                    
+                   </fieldset>
+                   
+                  <fieldset>
+                        <legend>Infos contact</legend>                   
+                        <label class="form_compteclients" for="compteclients_">Nom*</label>
+                        <input class="form_compteclients" name="compteclients_" type="text" ui:field="contact_nom" required=""/>
+                              
+                        <label class="form_compteclients" for="compteclients_">Prénom*</label>
+                        <input class="form_compteclients" name="compteclients_" type="text" ui:field="contact_prenom" required=""/>
+                        
+                        <label class="form_compteclients" for="compteclients_">Mail*</label>
+                        <input class="form_compteclients" name="compteclients_" type="email" ui:field="contact_mail" required=""/>
+                        
+                        <label class="form_compteclients" for="compteclients_">Téléphone</label>
+                        <input class="form_compteclients" name="compteclients_" type="tel" ui:field="contact_tel"/>
+                        
+                        <label class="form_compteclients" for="compteclients_">Fonction</label>
+                        <input class="form_compteclients" name="compteclients_" type="text" ui:field="contact_fonction"/>
+                        
+                    </fieldset>
+                    
+                  <fieldset>
+                        <legend>Estimation de vos besoins</legend>                   
+                        <label class="form_compteclients" for="compteclients_">Nombre de formulaires de collecte*</label>
+                        <input class="form_compteclients" name="compteclients_" type="text" ui:field="quota_formulaire"/>
+                        
+                        <label class="form_compteclients" for="compteclients_">Nombre d'utilisateurs de Bilifit*</label>
+                        <input class="form_compteclients" name="compteclients_" type="text" ui:field="quota_utilisateur"/>
+                        
+                    </fieldset>
+                    <button class="form_compteclients" type="button" ui:field="enregistrer" >Envoyer</button>
+                     <button class="form_compteclients" type="button" ui:field="retour" >Retour</button>
+                       
+               </form>
+            
+        </div>
+	</div>
+</ui:UiBinder>

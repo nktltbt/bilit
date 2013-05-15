@@ -1,0 +1,33 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+	<ui:style>
+		
+	</ui:style>
+	<div>
+
+		<div id="colonne_droite">
+			<table id="table_infos_clients">
+				<tbody ui:field="tbody">
+					<tr>
+						<td class="table_ligne_haute">Raison</td>
+						<td class="table_ligne_haute">Ville</td>
+						<td class="table_ligne_haute">CP</td>
+						<td class="table_ligne_haute">Offre souscrite</td>
+						<td class="table_ligne_haute">Client depuis</td>
+						<td class="table_ligne_haute">Actions</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<br />
+			<br />
+
+
+		</div>
+
+		<div class="clear_both"></div>
+
+		<div class="ligne_dotted"></div>
+
+	</div>
+</ui:UiBinder>

@@ -1,0 +1,35 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+	<ui:style>
+
+	</ui:style>
+	<div>
+		<div id="header">
+
+			<div id="header_barre_noir">
+				<div id="header_texte_accueil">
+					Bienvenue
+				</div>
+			</div>
+
+			<div id="header_barre_couleur"></div>
+			<div id="header_barre_grise">
+				<div id="header_fleche_couleur">
+					<img src="images/accueil/header_fleche.png" />
+				</div>
+			</div>
+
+			<div class="clear_both"></div>
+
+			<div id="container_titre">
+				<img src="images/accueil/header_couleur_logo.png" />
+				<br />
+				Guess
+			</div>
+
+		</div>
+		<div id="logo_small">
+			<img src="../images/general/logo_small.png" />
+		</div>
+	</div>
+</ui:UiBinder>

@@ -1,0 +1,84 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" >
+	<ui:style >
+	
+	</ui:style>
+	<div id="container">
+
+		<div class="clear_both">
+			<br/>
+
+				<div id="container_principal">
+
+					<div id="colonne_gauche">
+
+						<div class="clear_both"></div>
+
+						<span id="link_nouveaux_clients">
+							<a  ui:field="linkajout">
+								<img src="../images/general/plus.png"/> Nouveau Super Administrateur
+							</a>
+						</span>
+
+						<div id="image_lunette">
+							<img src="images/general/lunettes.png"/>
+						</div>
+
+						<div class="clear_both"></div>
+
+						<div id="choix_du_client">
+							<label for="nom">Nom </label>
+							<input name="nom" type="text" ui:field="nom" required="" placeholder="Nom"/>
+							<br/>
+							<br/>
+							<label for="prenom">Prenom</label>
+              				<input name="prenom" type="text" ui:field="prenom" required="" placeholder="Prenom"/>
+							<br/>
+							<br/>
+							<label for="mail">Adresse Email</label>
+							<input name="mail" type="text" ui:field="mail" required="" placeholder="Adresse Email" />
+							<br/>
+							<br/>
+							<label for="fonction">Fonction</label>
+							<input name="fonction" type="text" ui:field="fonction" required="" placeholder="Fonction" />
+							<br/>
+							<br/>
+							<button type="button"  ui:field="rechercher" class="buttonsubmit" >></button>
+						</div>
+					</div>
+
+					<div id="colonne_droite">
+						<table>
+							<tbody  ui:field="tbodySa">
+								<tr ui:field="rowSa">
+									<td class="table_ligne_haute">Nom</td>
+									<td class="table_ligne_haute">Prenom</td>
+									<td class="table_ligne_haute">Adresse Email</td>
+									<td class="table_ligne_haute">Fonction</td>
+									<td class="table_ligne_haute">Actions</td>
+								</tr>
+								
+							</tbody>
+						</table>
+
+						<br/>
+							<br/>
+
+					</div>
+
+					<div class="clear_both"></div>
+
+					<div class="ligne_dotted"></div>
+
+				</div>
+
+		</div>
+
+
+
+
+		<div id="footer"></div>
+
+
+	</div>
+</ui:UiBinder>

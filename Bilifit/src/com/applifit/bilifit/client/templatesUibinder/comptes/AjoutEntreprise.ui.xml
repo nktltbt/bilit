@@ -1,0 +1,120 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+	<ui:style>
+		.important {
+			font-weight: bold;
+		}
+	</ui:style>
+	<div id="container">
+		<div class="clear_both">
+			<br />
+
+			<div id="container_principal">
+				<div class="switch_entete formulaire_entete entete_open" onclick="$(this).toggleClass('entete_ferme');$(this).toggleClass('entete_open');$('.formulaire_normal:first').fadeToggle('fast', 'linear');">
+					<span class="titre_entete">Infos entreprises</span>
+				</div>
+
+				<div class="formulaire_normal" style="display: block;">
+					
+					<div id="formulaire_entreprise">
+
+						<form action="php/xx.php" method="post">
+
+							<fieldset id="form_colonne1">
+								<label class="floatLeft alignRight;" for="Raison">Raison sociale </label>
+								<input class="width50 floatRight;" name="RS" type="text" ui:field="form_RS" required="" />
+								<br />
+								<br />
+								
+								<label class="floatLeft alignRight;" for="Raison">SIRET </label>
+								<input class="width50 floatRight;" name="RS" type="text" ui:field="siret" required="" />
+								<br />
+								<br />
+
+								<label class="floatLeft alignRight;" for="Adresse">Adresse</label>
+								<input class="width50 floatRight;" name="Adresse" type="text" ui:field="adresse" required="" />
+								<br />
+								<br />
+
+								<label for="Ville">Ville</label>
+								<input class="width50 alignRight;" name="Ville" type="text" ui:field="ville" required="" />
+								<br />
+								<br />
+
+								<label class="width25 floatLeft;" for="CP">Code postal</label>
+								<input class="floatLeft;" style="width=3%;" name="CP" type="text" ui:field="cp" required="" />
+								<br />
+								<br />
+
+								<label class="width25 floatLeft;" for="Pays">Pays</label>
+								<input class="width50 floatLeft;" name="Pays" type="text" ui:field="pays" required="" />
+
+								<br />
+								<br />
+								<br />
+								<br />
+
+								<label class="width25 floatLeft;" for="Offre">Offre souscrite</label>
+								<input class="width50 floatLeft;" name="Offre" type="text" ui:field="offre" required="" />
+								<br />
+								<br />
+
+								<label for="date_creation">Date</label>
+								<input class="datepicker width50 alignRight;" name="date_creation" type="text" ui:field="date_creation" required="" />
+							</fieldset>
+
+							<fieldset id="form_colonne2">
+							
+								<!-- <label for="logo">Logo</label>
+								<input class="width50 alignRight;" name="logo" type="file" ui:field="logo" required="" />
+								<br />
+								<br /> -->
+
+								<label for="Contact">Contact Nom</label>
+								<input class="width50 alignRight;" name="Contact" type="text" ui:field="contact_nom" required="" />
+								<br />
+								<br />
+								
+								<label for="Contact">Contact Prenom</label>
+								<input class="width50 alignRight;" name="Contact" type="text" ui:field="contact_prenom" required="" />
+								<br />
+								<br />
+
+								<label for="Fonction">Fonction</label>
+								<input class="width50 alignRight;" name="Fonction" type="text" ui:field="fonction" required="" />
+								<br />
+								<br />
+
+								<label for="Téléphone">Téléphone</label>
+								<input class="width25 alignRight;" name="Téléphone" type="text" ui:field="telephone" required="" />
+								<br />
+								<br />
+
+								<label for="Mail">Mail</label>
+								<input class="width50 alignRight;" name="Mail" type="email" ui:field="mail" required="" />
+								<br />
+								<br />
+								<label for="quota_form">Nombre de formulaires de collecte</label>
+								<input class="width50 alignRight;" name="Mail" type="text" ui:field="quota_form" required="" />
+								<br />
+								<br />
+								<label for="quota_user">Nombre d'utilisateurs de Bilifit</label>
+								<input class="width50 alignRight;" name="Mail" type="text" ui:field="quota_user" required="" />
+								<button type="button" ui:field="enregistrer"><span ui:field="titreButton" /></button>
+
+							</fieldset>
+
+
+						</form>
+
+						<div class="clear_both"></div>
+
+					</div>
+
+				</div>
+
+				<div class="clear_both"></div>
+			</div>
+		</div>
+	</div>
+</ui:UiBinder>

@@ -1,0 +1,35 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+	<ui:style>
+		
+	</ui:style>
+	<div class="clear_both">
+		<br />
+		<div id="container_principal">
+
+			<ul id="menu_accueil">
+				<li>
+					<a href="Formulaire_applifit.html" ui:field="creation">
+						<img onmouseover="this.src='images/formulaire/bouton_menu_creer_hover.png'"
+							src="images/formulaire/bouton_menu_creer.png" onmouseout="this.src='images/formulaire/bouton_menu_creer.png'" />
+					</a>
+				</li>
+				<li>
+					<a href="Formulaire_modifier_applifit.html" ui:field="modification">
+						<img onmouseover="this.src='images/formulaire/bouton_menu_modifier_hover.png'"
+							src="images/formulaire/bouton_menu_modifier.png" onmouseout="this.src='images/formulaire/bouton_menu_modifier.png'" />
+					</a>
+				</li>
+				<li>
+					<a href="Formulaire_consulter_applifit.html">
+						<img
+							onmouseover="this.src='images/formulaire/bouton_menu_consulter_hover.png'"
+							src="images/formulaire/bouton_menu_consulter.png" onmouseout="this.src='images/formulaire/bouton_menu_consulter.png'" />
+					</a>
+				</li>
+			</ul>
+
+		</div>
+
+	</div>
+</ui:UiBinder>

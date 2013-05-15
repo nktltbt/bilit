@@ -1,0 +1,210 @@
+/* CSS Document */  
+
+/* CSS ------ HEADER ------ */ 
+/* CSS ------ HEADER ------ */ 
+/* CSS ------ HEADER ------ */ 
+#header_barre_couleur  
+	{
+	background-color:#5e3f8e; /* Modifier selon la couleur général du thème */
+	}
+	
+#container_titre 
+	{
+	background-color:#5e3f8e; /* Modifier selon la couleur général du théme */
+	}
+	
+/* CSS ------ CONTAINER (ordre Alphab) ------ */ 
+/* CSS ------ CONTAINER (ordre Alphab) ------ */
+/* CSS ------ CONTAINER (ordre Alphab) ------ */
+
+#colonne_droite
+	{	
+	float:right;
+	width:63%;	
+	margin:50px 50px 20px 20px
+	}	
+	
+#colonne_gauche
+	{	
+	float:left;
+	width:25%;
+	margin:80px 20px 20px 50px;
+	}
+	
+#image_lunette
+	{
+	float:right;
+	margin:50px 60px 20px 0px;
+	}	
+	
+#link_nouveaux_clients a
+	{	
+	margin:10px 0px 10px 40px;
+	color:#6a6b6f;
+	cursor:pointer;
+	font-size: 16px;
+	}	
+		
+#link_nouveaux_clients a:hover
+	{
+	color:#b9b6b7;
+	}	
+	
+/* CSS ------ TABLE ------ */ 
+/* CSS ------ TABLE ------ */ 
+/* CSS ------ TABLE ------ */ 
+
+#table_infos_clients
+	{
+	width:90%;
+	max-height:300px;
+	overflow:auto;
+	}
+
+.table_ligne_clair
+	{
+	height:20px;
+	background-color:#ded6e9;
+	color:#000;	
+	}
+.table_ligne_fonce
+	{
+	height:20px;
+	background-color:#b4a4cc;
+	color:#000;	
+	}
+		
+.table_ligne_haute
+	{
+	padding-left:30px;
+	height:30px;
+	background-color:#6a6b6f;
+	color:#FFF;
+	font-weight:bold;
+	width: 200px;
+	}
+	
+/* CSS ------ FORMULAIRE ------ */ 
+/* CSS ------ FORMULAIRE ------ */ 
+/* CSS ------ FORMULAIRE ------ */ 
+
+label 
+	{
+	/* positionnement marge et taille */
+	float: left; 
+	/* styles de caract�res */
+	font-size: 16px; 
+	color: #56666b;
+	text-align: left; 	
+	}
+	
+input 
+	{
+	float:right;
+	font-size: 16px; 
+	color: #4b4b4b; 
+	text-shadow: 1px 1px 0px #e8eade;
+	width: 170px; 
+	height: 22px; 
+	-moz-box-shadow: 0px 1px 0px #f2f2f2;
+	-webkit-box-shadow: 0px 1px 0px #f2f2f2;
+	background: #f1f2f4;
+	background: -moz-linear-gradient(top, #f1f2f4 0%, #f8f9fb 20%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1f2f4), color-stop(20%,#f8f9fb));
+	border:1px solid #b6b7b9;
+	border-radius: 3px;
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px;		
+	}
+
+input[type=button] , .buttonsubmit
+	{
+	cursor: pointer;
+	width: 22px !important;
+	height: 22px; 
+	border-radius: 15px;
+	-moz-border-radius: 15px; 
+	-webkit-border-radius: 15px;	
+	background:#3b3b3b;
+	color: #fff;
+	font-weight:bold;
+	}
+	
+
+	
+input[type=submit]:hover 
+	{
+	background:#565656;
+	}
+	
+select
+	{
+	float:right;
+	font-size: 16px; 
+	color: #4b4b4b; 
+	text-shadow: 1px 1px 0px #e8eade;
+	width: 170px; 
+	height: 22px; 
+	-moz-box-shadow: 0px 1px 0px #f2f2f2;
+	-webkit-box-shadow: 0px 1px 0px #f2f2f2;
+	background: #f1f2f4;
+	background: -moz-linear-gradient(top, #f1f2f4 0%, #f8f9fb 20%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1f2f4), color-stop(20%,#f8f9fb));
+	border:1px solid #b6b7b9;
+	border-radius: 3px;
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px;		
+	}
+	
+.formulaire_entete
+{
+	background-color:#5E3F8E;
+}
+
+button[type="button"] {
+cursor: pointer;
+width: 160px;
+height: 22px;
+background: #5E3F8E;
+color: #fff;
+font-weight: bold;
+border: 0px;
+float: right;
+margin: 40px 4% 0px 0px;
+font-size: 14px;
+}
+
+input[type="radio"] {
+width:12px !important;
+}
+
+.table_ligne_clair .gwt-Label{
+	cursor:pointer;
+}
+
+.table_ligne_fonce .gwt-Label{
+	cursor:pointer;
+}
+
+.td_radio{
+width: 20px !important;
+padding-left: 0px !important;
+}
+
+.img_edit{
+	padding-left: 15px !important;
+}
+.img_edit img{
+	width:40px;
+	cursor:pointer;
+}
+.table_ligne_clair_grey {
+padding-left: 10px;
+height: 40px;
+background-color: rgb(203, 200, 206);
+color: #000;
+}
+
+.table_ligne_clair_grey .gwt-Label {
+cursor: pointer;
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee                http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+
+	<!-- Default page to serve -->
+	<welcome-file-list>
+		<welcome-file>Connexion.html</welcome-file>
+	</welcome-file-list>
+	<!--<filter>
+  		<filter-name>Decryptage</filter-name>
+  	    <filter-class>com.applifit.bilifit.server.filter.Decryptage</filter-class>
+  	</filter>
+  	<filter-mapping>
+   		<filter-name>Decryptage</filter-name>
+   		<url-pattern>/cr/*</url-pattern>
+  	</filter-mapping>-->
+	<servlet>
+		<servlet-name>SystemServiceServlet</servlet-name>
+		<servlet-class>com.google.api.server.spi.SystemServiceServlet</servlet-class>
+		<init-param>
+			<param-name>services</param-name>
+			<param-value/>
+		</init-param>
+	</servlet>
+	<servlet>
+		<servlet-name>Jersey Web Application</servlet-name>
+		<servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Jersey Web Application</servlet-name>
+		<url-pattern>/*</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+      <servlet-name>Export</servlet-name>
+      <servlet-class>com.applifit.bilifit.server.Export.Export</servlet-class>
+   </servlet>
+   <servlet>
+      <servlet-name>dk.lindhardt.sample.geie.SampleApplication GEIESampleService</servlet-name>
+      <servlet-class>com.applifit.bilifit.server.Export.GEIESampleServiceImpl</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+      <servlet-name>Export</servlet-name>
+      <url-pattern>/bdd/Export</url-pattern>
+   </servlet-mapping>
+   <servlet-mapping>
+      <servlet-name>dk.lindhardt.sample.geie.SampleApplication GEIESampleService</servlet-name>
+      <url-pattern>/bdd/GEIESampleService</url-pattern>
+   </servlet-mapping>
+     <servlet>
+      <servlet-name>Upload</servlet-name>
+      <servlet-class>com.applifit.bilifit.server.formulaires.Upload</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+      <servlet-name>Upload</servlet-name>
+      <url-pattern>/upload</url-pattern>
+   </servlet-mapping>
+   
+     <servlet>
+      <servlet-name>Serve</servlet-name>
+      <servlet-class>com.applifit.bilifit.server.formulaires.Serve</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+      <servlet-name>Serve</servlet-name>
+      <url-pattern>/serve/</url-pattern>
+   </servlet-mapping>
+   
+        <servlet>
+      <servlet-name>CreerUpload</servlet-name>
+      <servlet-class>com.applifit.bilifit.server.formulaires.CreerUpload</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+      <servlet-name>CreerUpload</servlet-name>
+      <url-pattern>/creerupload/</url-pattern>
+   </servlet-mapping>
+ 
+
+</web-app>

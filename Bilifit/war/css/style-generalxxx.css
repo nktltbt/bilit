@@ -1,0 +1,368 @@
+/* CSS Document */  
+
+body 
+	{ 
+	margin:0px;  
+	font-family:Helvetica, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	}  
+
+/* CSS ------ CLASS GENERALES ------ */ 
+/* CSS ------ CLASS GENERALES ------ */ 
+/* CSS ------ CLASS GENERALES ------ */  
+
+.clear_both { clear:both; }
+.width100 { width: 100%; }
+.width75 { width: 75%; }
+.width50 { width: 50%; }
+.floatLeft { float: left; }
+.floatRight { float: right; }
+.alignLeft { text-align: left; }
+.alignRight { text-align: right; }
+.alignCenter { text-align: right; }
+.gras {font-weight:bold;}
+
+.ligne_dotted
+	{
+	width:90%;
+	margin:10px auto 10px auto;
+	border-bottom:dashed 1px #666666;	
+	}
+
+/* CSS ----- BOUTONS ----- */
+
+.bouton_go
+	{
+	color:#fff;
+	display:block;
+	font-size:16px;
+	text-align:center;
+	width:80px;
+	line-height:24px;
+	height:24px;
+	background-color:#181817;
+	border-radius: 3px;
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px;			
+	}
+	
+a.bouton_go:hover
+	{
+	background-color:#4d4d4d;
+	}
+	
+a.bouton_enregistrer 
+	{
+	font-size:18px;
+	text-decoration:none;
+	color:#333333;
+	}
+	
+a.bouton_enregistrer:hover
+	{
+	color:#999999
+	}
+	
+.bouton_classique {
+	display: inline-block;
+	-webkit-box-shadow: 0 1px 0 #fff;
+	-moz-box-shadow: 0 1px 0 #fff;
+	box-shadow: 0 1px 0 #fff;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	}
+            
+.bouton_classique button 
+	{	
+	cursor:  pointer;
+	border-right: 0;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-background-clip: padding-box;
+	margin: 2px;
+	width:200px;
+	padding: 6px 0px;
+	border: 1px solid #777;
+	text-shadow: 0 1px 0 #fff;
+	font-size: 14px;
+	background: #eee;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd));
+	background: -moz-linear-gradient(top, #fff, #ddd);
+	}
+				
+.bouton_classique button:active 
+	{
+	background: #ccc;
+	background: -webkit-gradient(linear, left top, left bottom,from(#ddd), to(#bbb));
+	background: -moz-linear-gradient(top, #ddd, #bbb);
+	text-shadow: 0 1px 0 #eee;
+	-webkit-box-shadow: inset 0 1px 2px #000;
+	-moz-box-shadow: inset 0 1px 2px #000;
+	box-shadow: inset 0 1px 2px #000;
+	}
+
+/* ----- TABLES ----- */
+
+.table_ligne_clair
+	{
+	padding-left:10px;
+	height:20px;
+	color:#000;	
+	background-color:#e0dede;
+	}
+.table_ligne_fonce
+	{
+	padding-left:10px;
+	height:20px;
+	color:#000;	
+	background-color:#b9b6b7;
+	}
+	
+.table_ligne_haute
+	{
+	padding-left:30px;
+	height:30px;
+	background-color:#6a6b6f;
+	color:#FFF;
+	font-weight:bold;
+	}
+
+.title
+	{
+	font-size:20px;
+	font-weight:bold;
+	}
+
+
+/* CSS ------ HEADER ------ */ 
+/* CSS ------ HEADER ------ */ 
+/* CSS ------ HEADER ------ */ 
+
+
+#container_titre 
+	{
+	width:150px;
+	height:40px;
+	position:absolute;
+	top:0px;
+	left:70px;
+	color:#FFF;
+	font-size: 18px;
+	}
+
+#container_titre img 
+	{float:left;margin:10px;}
+	
+#header_barre_noir
+	{
+	background-color:#000;
+	height:40px;
+	margin:0px;
+	padding:0px;
+	}
+
+#header_barre_couleur  
+	{
+	height:10px;
+	margin:0px;
+	padding:0px;
+	}
+
+#header_barre_grise 
+	{
+	background-color:#f1f1f1;
+	height:30px;
+	border-bottom:solid 1px #999999;
+	}
+
+#header_fleche_couleur
+	{
+	margin:0px;
+	padding:0px;
+	position:absolute;
+	height:18px;
+	width:35px;
+	left:128px;
+	float:left;
+	}
+
+#header_texte_accueil
+	{
+	height:30px;
+	padding:15px 40px 0px 0px;
+	float:right;
+	font-size: 16px;
+	color:#FFF;
+	
+	
+	}
+
+#header_texte_accueil a
+	{
+	color:#fe4c48;
+	text-decoration:none;
+	margin-left:30px;
+	
+	}
+	
+#header_texte_accueil a:hover
+	{
+	color:#dc4744;
+	}
+	
+#contact_menu_accueil 
+	{
+	margin-right:100px;
+	}
+	
+#contact_menu_accueil a
+	{
+	text-decoration:none;
+	color:#2583f7;
+	font-size:16px;
+	}
+	
+#contact_menu_accueil a:hover
+	{
+	color:#2979dd
+	}
+	
+	
+/* CSS ------ MENU ------ */ 
+/* CSS ------ MENU ------ */ 
+/* CSS ------ MENU ------ */ 
+
+#menu 
+	{
+	height:45px;
+	right:40px;
+	position:absolute;
+	padding:5px 0px 0px 0px;
+	float:right;
+	font-size: 17px;
+	}
+
+#menu ul li
+	{
+	display:inline;	
+	margin:0px 5px 0px 5px;
+	}
+
+#menu ul
+	{
+	list-style:none;
+	margin:0px;
+	}
+#menu ul a
+	{
+	text-decoration:none;
+	color:#000;
+	}
+
+#menu ul a:hover
+	{
+	color:#666;
+	}
+
+#menu ul a:visited
+	{
+	color:#000;
+	}
+
+.menu_inactif
+	{
+	color:#000;
+	}
+
+
+/* CSS ------ CONTAINER (ORDRE ALPHAB) ------ */ 
+/* CSS ------ CONTAINER (ORDRE ALPHAB) ------ */ 
+/* CSS ------ CONTAINER (ORDRE ALPHAB) ------ */ 
+	
+#container 
+	{
+	width:100%;
+  	}
+	
+#container_principal
+	{
+	position:relative;
+	margin:0px;
+	padding-top:0px;
+	width:100%;
+	}
+	
+#deconnexion
+	{
+
+	margin:10px 20px 0px 40px;
+	font-size: 16px;	
+	}
+
+#deconnexion a
+	{
+	color:#666;
+	text-decoration:none;
+	}
+
+#deconnexion a:hover
+	{
+	color:#ccc;
+	}
+	
+.formulaire_entete
+	{
+	text-align:left;
+	width:82%;
+	margin:0px auto 10px auto;
+	}
+		
+.formulaire_entete img
+	{
+	float:right;
+	margin-right:20px;
+	}
+	
+.formulaire_normal
+	{
+	width:82%;
+	margin:0px auto 10px auto;	
+	}	
+	
+#logo_small img
+	{
+	position:absolute;
+	float:left;
+	margin:10px 0px 0px 105px;
+	}
+
+.titre_entete
+	{
+	margin:0px 0px 0px 20px;
+	color:#fff;
+	font-size:24px;
+	text-align:left;
+	vertical-align:middle;
+	}
+
+	
+/* CSS ------ FOOTER ------ */ 
+/* CSS ------ FOOTER ------ */ 
+/* CSS ------ FOOTER ------ */ 
+
+#footer 
+	{
+
+	}
+	
+.button_action{
+
+width: 50% !important;
+height: 28px !important;
+font-weight: normal !important;
+border: 1px solid !important;
+float: none !important;
+margin: 0px 0% 0px 0px !important;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+	<ui:style>
+		
+	</ui:style>
+
+	<div id="container">
+		<div class="clear_both">
+			<br />
+			<div id="container_principal">
+
+				<!-- ICI LA COLONNE DE GAUCHE -->
+				<!-- ICI LA COLONNE DE GAUCHE -->
+				<!-- ICI LA COLONNE CENTRALE -->
+				<!-- ICI LA COLONNE CENTRALE -->
+				<div id="button_Supprimer"></div>
+				<div id="colonne_centrale" class="width75">
+					<div id="entete_formulaire">
+						<div class="titre_entete" style="line-height:60px;float:left;">
+							Créer son formulaire
+						</div>
+					<form action="php/xx.php" method="post">
+
+							<fieldset class="form_formulaire" id="form_formulaire_creation">
+
+							</fieldset>
+
+						</form>
+						
+						<form action="php/xx.php" method="post">
+
+							<fieldset class="form_formulaire" id="form_formulaire_allocation">
+								<label for="choix_form"> <a ui:field="link_allocation" class="lien_allocation">Allocation du formulaire</a></label>
+							</fieldset>
+
+						</form>
+						
+
+					</div>
+					<div id="contenu_principal_formulaire" class="newScrollBar">
+
+
+					</div>
+				</div>
+
+				<!-- ICI LA COLONNE DE DROITE -->
+				<!-- ICI LA COLONNE DE DROITE -->
+
+				<div id="colonne_droite" class="floatLeft">
+					<div id="caracteristiques_formulaires">
+						<span style="margin-top:20px;float:left;">Caractéristique de l'élément sélectionné</span>
+					</div>
+					<div id="caracteristiques_detaillees_formulaires" class="newScrollBar">
+
+					</div>
+				</div>
+
+				<div class="clear_both"></div>
+
+				<br />
+				<div id="button_Enregistrer">
+				</div>
+				<div class="clear_both"></div>
+
+				<br />
+
+				<div class="ligne_dotted"></div>
+
+
+
+
+				<!-- ICI LE FOOTER -->
+				<!-- ICI LE FOOTER -->
+				<!-- ICI LE FOOTER -->
+
+				<div id="footer"></div>
+
+			</div>
+		</div>
+	</div>
+</ui:UiBinder>

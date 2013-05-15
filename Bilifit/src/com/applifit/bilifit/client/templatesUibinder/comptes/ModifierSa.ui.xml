@@ -1,0 +1,68 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+	<ui:style >
+	
+	</ui:style>
+	<div id="container">
+
+		<div class="clear_both">
+			<br/>
+
+				<div id="container_principal">
+					<div class="switch_entete formulaire_entete entete_open">
+        				<span class="titre_entete">Modification super Administrateur</span>
+        			</div>
+        			<div class="formulaire_normal">
+            
+            <div id="formulaire_entreprise">
+            
+                <div>
+                
+                        <label class="floatLeft alignRight;" for="nom">Nom </label>
+                        <input class="width50 floatRight;" name="nom" type="text" ui:field="nom" required="" />
+ 						<br/><br/>
+                          
+						<label class="floatLeft alignRight;" for="prenom">Prenom</label>
+                        <input class="width50 floatRight;" name="prenom" type="text" ui:field="prenom" required="" />
+                        <br/><br/>                 
+
+						<label for="mail">Adresse mail</label>
+                        <input class="width50 alignRight;" name="mail" type="text" ui:field="mail" required="" readonly="readonly" />
+                        <br/><br/> 
+                                        
+                        <label class="width25 floatLeft;" for="fonction">Fonction</label>
+                        <input class="width50 alignRight;" name="fonction" type="text" ui:field="fonction"  required=""/>
+                        <br/><br/>
+                        <div ui:field="divPass">
+                        <label class="width25 floatLeft;" for="password">Mot de passe</label>
+                        <input class="width50 alignRight;" name="password" type="password" ui:field="password"/>
+                        <br/><br/>  
+                        
+                        <label class="width25 floatLeft;" for="password_confirmation">Confirmation de mot de passe</label>
+                        <input class="width50 alignRight;" name="password_confirmation" type="password" ui:field="password_confirmation"/>
+                        <br/><br/>  
+                        </div>
+                        
+                        <button ui:field="enregistrer" type="button">Enregistrer </button>
+                        <button ui:field="retour" type="button">Retour </button>
+                </div>
+
+    		<div class="clear_both"></div>
+            
+        	</div>
+        	
+        	<div class="clear_both"></div>
+            
+        </div>
+
+				</div>
+		</div>
+
+
+
+
+		<div id="footer"></div>
+
+
+	</div>
+</ui:UiBinder>

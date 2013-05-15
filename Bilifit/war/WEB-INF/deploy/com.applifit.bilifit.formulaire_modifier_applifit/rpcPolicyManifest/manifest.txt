@@ -1,0 +1,2 @@
+# Module com.applifit.bilifit.formulaire_modifier_applifit
+# RPC service class, partial path of RPC policy file

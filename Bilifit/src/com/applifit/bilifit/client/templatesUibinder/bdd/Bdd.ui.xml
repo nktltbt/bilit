@@ -1,0 +1,47 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+	<ui:style>
+	</ui:style>
+	
+	<div>
+	<div id="container">
+	
+	        <div id="logo_small">
+	    	<img src="images/general/logo_small.png"/>
+	    </div>
+	
+	    <div class="clear_both">
+	    <br/>
+	
+	    <div id="container_principal">    
+	        
+	        <br/><br/>
+	        <label for="offre_souscrite">Ajouter un formulaire</label>
+	                    <select ui:field="selectForm">
+	                    </select>
+	                    <br/><br/>
+	                    
+	         <p class="form_bdd_menu"><a href="#" onclick="imprimer_bloc('Formulaire ', 'table_infos_bdd')"><img src="images/general/print.png"/></a><a ui:field="export" href="#"><img src="images/bdd/extract_excel.png"/></a></p>
+	    
+	    
+	    
+	    	<div ui:field ="divtest" class="table_infos_bdd"></div>
+	                
+	                <br/><br/>
+	            
+	        <div class="clear_both"></div>
+	    
+	        <div class="ligne_dotted"></div>
+	    
+	    	<br/><br/>
+	   
+	    </div>
+	    
+	</div>
+	
+	<div id="footer"></div>
+	
+	 
+	</div>
+	</div>
+</ui:UiBinder>

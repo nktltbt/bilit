@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+encoding//src/com/applifit/bilifit/client/comptes/Accueil_superadmin.java=UTF-8
+encoding//src/com/applifit/bilifit/client/comptes/GestionClient.java=UTF-8
+encoding//src/com/applifit/bilifit/client/comptes/GestionSuperAdmin.java=UTF-8
+encoding//src/com/applifit/bilifit/client/formulaires/DroppableElement.java=UTF-8
+encoding//src/com/applifit/bilifit/client/formulaires/FormulaireController.java=UTF-8
+encoding//src/com/applifit/bilifit/client/formulaires/Formulaire_applifit.java=UTF-8
+encoding//src/com/applifit/bilifit/client/formulaires/Formulaire_modifier_applifit.java=UTF-8
+encoding//src/com/applifit/bilifit/client/outils/BuildJsonObject.java=UTF-8
+encoding//src/com/applifit/bilifit/client/outils/Constantes.java=UTF-8
+encoding//src/com/applifit/bilifit/client/outils/Email.java=UTF-8
+encoding//src/com/applifit/bilifit/client/outils/Utils.java=UTF-8
+encoding//src/com/applifit/bilifit/server/comptes/RestServices/CompteRestService.java=UTF-8
+encoding//war/css/style-accueil.css=UTF-8
+encoding//war/css/style-accueil_superadmin.css=UTF-8
+encoding//war/css/style-compteclients.css=UTF-8
+encoding//war/css/style-formulaire.css=UTF-8

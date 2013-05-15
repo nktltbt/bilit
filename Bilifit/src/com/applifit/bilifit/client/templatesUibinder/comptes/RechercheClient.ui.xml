@@ -1,0 +1,48 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+<div class="clear_both">
+    <br/>
+
+    <div id="container_principal">
+
+		<div id="colonne_gauche">
+        	
+            <div class="clear_both"></div>
+            
+         	<span id="link_nouveaux_clients"><a ui:field="linkajout"><img src="images/general/plus.png"/> nouveau client</a></span>
+                 
+            <div id="image_lunette">
+                <img src="images/general/lunettes.png"/>
+            </div>
+
+            <div class="clear_both"></div> 
+               
+            <form id="choix_du_client">
+                <label for="Raison">Raison sociale</label>
+                <input name="RS" type="text" ui:field="rs" />
+                <br/><br/>
+                <label for="ville_cp">Ville / CP</label>
+                <input name="ville_cp" type="text" ui:field="ville_cp" />
+                <br/><br/>
+                <label for="nom_du_contact">Nom du contact</label>
+                <input name="nom_du_contact" type="text" ui:field="contact_nom" />
+                <br/><br/>
+                <label for="nom_du_contact">Mail du contact</label>
+                <input name="nom_du_contact" type="email" ui:field="contact_mail" />
+                <br/><br/>
+                <label for="offre_souscrite">Offre souscrite</label>
+                <input name="offre_souscrite" type="text" ui:field="offre" />
+                <br/><br/>
+                <label for="client_depuis">Client depuis</label>
+                <input class="datepicker" name="client_depuis" type="text" ui:field="date"  />
+                <br/><br/>
+                <button type="button" ui:field="rechercher" class="buttonsubmit">	&gt; </button>
+            </form>
+        </div>
+        
+    </div>
+   
+        
+</div>
+	
+</ui:UiBinder>

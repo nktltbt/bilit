@@ -1,0 +1,42 @@
+/* CSS Document */  
+
+/* CSS ------ HEADER ------ */ 
+/* CSS ------ HEADER ------ */ 
+/* CSS ------ HEADER ------ */ 
+#header_barre_couleur  
+	{
+	background-color:#eb6b45; /* Modifier selon la couleur général du thème */
+	}
+
+#container_titre 
+	{
+	background-color:#eb6b45; /* Modifier selon la couleur général du thème */
+	}
+
+	
+/* CSS ------ MENU ------ */ 
+/* CSS ------ MENU ------ */ 
+/* CSS ------ MENU ------ */  
+#menu_accueil
+	{
+	position:absolute;
+	left:50%;
+	width:844px;
+	list-style:none;		
+	margin-left:-422px;
+	margin-top:100px;
+	border-bottom:dotted 2px #666;
+	}
+  
+#menu_accueil a
+	{
+	float:left;
+	display:block;	
+	margin:20px;
+	border-bottom:solid 4px #fff;
+	}
+
+#menu_accueil a:hover
+	{
+	border-bottom:solid 4px #eb6b45;
+	}

@@ -1,0 +1,50 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+
+	<div id="container">
+		<link rel="stylesheet" href="css/style-connexion.css"></link>
+		<link rel="stylesheet" href="css/style-generalxxx.css"></link>
+		<div class="connexion_colonne_centrale">
+
+			<div id="connexion_logo">
+				<img src="images/connexion/connexion_logo.png" />
+			</div>
+			<div id="connexion">
+				<div class="login">
+					<img src="images/connexion/id.png" />
+					<input type="text" name="login" ui:field="login" placeholder=" Login - admin" />
+				</div>
+				<div class="pass">
+					<img src="images/connexion/pass.png" />
+					<input type="password" name="pass" ui:field="pass"
+						placeholder=" Password" />
+					<button type="button" class="button_login" name="connexion"
+						ui:field="connexion">
+						&#x279c;</button>
+				</div>
+				<br />
+				<div class="pass_oublie floatRight">
+					<a href="" ui:field="oublier">Password oublié ?</a>
+				</div>
+			</div>
+
+			<div class="clear_both"></div>
+
+			<div id="connexion_trois_ronds">
+				<img src="images/connexion/trois_ronds.png" />
+			</div>
+
+		</div>
+
+		<div id="nuaged1">
+			<img src="images/connexion/nuaged1.png" />
+		</div>
+		<div id="nuaged2">
+			<img src="images/connexion/nuaged2.png" />
+		</div>
+		<div id="nuageb">
+			<img src="images/connexion/nuageb1.png" />
+			<img src="images/connexion/nuageb2.png" />
+		</div>
+	</div>
+</ui:UiBinder>

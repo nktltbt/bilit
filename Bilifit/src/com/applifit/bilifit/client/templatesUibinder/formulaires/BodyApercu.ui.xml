@@ -1,0 +1,54 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+	<ui:style>
+		
+	</ui:style>
+	<div id="container">
+		<div class="clear_both">
+			<br />
+			<div id="container_principal">
+				<div class="floatLeft newScrollBar" id="choix_objet_apercu"></div>
+				<div class="width75" id="colonne_centrale">
+					<div id="entete_formulaire">
+						<div class="titre_entete" style="line-height:60px;float:left;"> Aperçu du formulaire </div>
+						<form action="php/xx.php" method="post">
+							<fieldset class="form_formulaire" id="form_formulaire_creation">
+								<div>
+									<input name="renseigne" style="width:150px;" type="text"
+										readonly="readonly" ui:field="nom" />
+									<label for="renseigne">Nom</label>
+									<br />
+									<br />
+									<input name="le" style="width:150px;" type="text"
+										readonly="readonly" ui:field="comment" />
+									<label for="le">Commentaires</label>
+								</div>
+							</fieldset>
+						</form>
+					</div>
+					<div class="newScrollBar" id="contenu_principal_formulaire">
+						<div ui:field="part1" class="divApercu"></div>
+						<div ui:field="part2" class="divApercu"></div>
+						<div ui:field="part3" class="divApercu"></div>
+						
+					</div>
+				</div>
+				<div class="floatLeft" id="colonne_droite">
+				</div>
+				<div class="clear_both"></div>
+				<br />
+				<div id="button_Enregistrer">
+					<a class="gwt-Anchor">
+						<a class="bouton_enregistrer floatRight" style="margin-right:13%; cursor:pointer"  ui:field="retour">Retour</a>
+					</a>
+				</div>
+				<div class="clear_both"></div>
+				<br />
+				<div class="ligne_dotted"></div>
+				<div id="footer"></div>
+			</div>
+		</div>
+	</div>
+
+
+</ui:UiBinder>

@@ -1,0 +1,63 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+<div>
+	<div id="container_principal_blanc">
+
+<!-- ICI LA COLONNE CENTRALE --> 
+<!-- ICI LA COLONNE CENTRALE --> 
+          
+            
+            <div class="clear_both"></div>
+            
+            <br/>
+            
+            
+        <div id="colonne_centrale_consulter" class="width75">
+        	<div id="entete_formulaire">
+            	<div class="titre_entete" style="line-height:60px;float:left;">
+                	Consulter un formulaire
+                </div>                 
+                
+             
+                     
+            </div>
+            <div id="contenu_principal_formulaire_consulter" class="newScrollBar">
+              <table id="table_search_formulaire_consulter">
+            	<tbody ui:field="tbody">
+            	<tr>
+            		<td class="table_ligne_haute">Renseigné par</td>
+            		<td class="table_ligne_haute">Le</td>
+                    <td class="table_ligne_haute"></td>                   
+                </tr>
+             	                                                                         
+ 				</tbody>
+ 				</table>
+		
+            <div id="formConsultation">
+            
+                 <div ui:field="part1" class="divApercu"></div>
+				 <div ui:field="part2" class="divApercu"></div>
+				 <div ui:field="part3" class="divApercu"></div>
+                  	
+            </div>
+        
+            </div>
+        </div>
+
+	<div class="clear_both"></div>
+	
+    <br/>
+    
+     <a  class="bouton_enregistrer floatRight" style="margin-right:10%; cursor:pointer" ui:field="lien_enregistrer">ENREGISTRER</a>
+ 
+   
+    <a href="#" class="bouton_enregistrer floatRight" style="margin-right:20px;" onclick ="javascript: imprimer_bloc('Contenu principal:formulaire consulter', 'formConsultation')">IMPRIMER</a>
+    <div class="clear_both"></div>
+    
+    <br/>
+    
+    <div class="ligne_dotted"></div>
+    
+    </div>
+   </div>
+</ui:UiBinder>

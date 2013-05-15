@@ -1,0 +1,3 @@
+# Module bdd
+# RPC service class, partial path of RPC policy file
+com.applifit.bilifit.client.export.GEIESampleService, 6B1E0CB5645ECA37B466AA8C9E31D395.gwt.rpc

@@ -1,0 +1,89 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:c="urn:import:com.google.gwt.dev.cfg" xmlns:j="urn:import:net.sourceforge.htmlunit.corejs.javascript">
+	<ui:style>
+		
+	</ui:style>
+
+	<div class="clear_both">
+		<div>
+			<div ui:field="info" class="switch_entete2 switch_entete formulaire_entete entete_ferme"
+				onclick="$(this).toggleClass('entete_ferme');$(this).toggleClass('entete_open');$('.infos_collab').fadeToggle('fast', 'linear');">
+				<span class="titre_entete">Infos collaborateurs</span>
+			</div>
+			<div ui:field="infos_collabs"  class="infos_collaborateurs infos_collab" style="display: none;">
+				<div id="link_nouveaux_collaborateurs" class="switch_infos_new_collaborateurs"
+					style="cursor:pointer;"
+					onclick="$('.infos_new_collaborateurs').fadeToggle('fast', 'linear');">
+					<img src="images/general/plus.png" />
+					nouveau collaborateur
+				</div>
+
+				<div ui:field="infonew" class="infos_new_collaborateurs" style="background-color: rgb(232, 242, 216);display:none">
+					<form action="php/" method="post">
+
+						<fieldset id="form_new_collaborateurs" style="border:none;">
+							<input style="width:40%;" name="id" type="hidden" ui:field="id" />
+							<label style="width:10%;" for="Nom">Nom</label>
+							<input style="width:40%;" name="nom" type="text" ui:field="nom"
+								required="" />
+							<br />
+							<br />
+							<label style="width:10%;" for="prenom">Prénom</label>
+							<input style="width:40%;" name="prenom" type="text" ui:field="prenom"
+								required="" />
+							<br />
+							<br />
+							<label style="width:10%;" for="mail">Mail</label>
+							<input style="width:40%;" name="mail" type="mail" ui:field="mail"
+								required="" />
+							<br />
+							<br />
+							<label style="width:10%;" for="fonction">Fonction</label>
+							<input style="width:40%;" name="fonction" type="text"
+								ui:field="fonction" required="" />
+							<br />
+							<br />
+							<div ui:field="mdpDiv" class="passeHidden">
+							<label style="width:10%;" for="fonction">Mot de passe</label>
+							<input style="width:40%;" type="password" name="mdp1" ui:field="mdp1" />
+							<br />
+							<br />
+							<label style="width:10%;" for="fonction">Vérifier Mot de passe</label>
+							<input style="width:40%;" type="password" name="mdp2" ui:field="mdp2" />
+							
+							<br />
+							<br />
+							</div>
+							<label style="width:11%;" for="profil"></label>
+							<input type="checkbox" ui:field="profil_admin" />
+							<label style="width:11%;" for="profil" ui:field="profil_label">Client Administrateur</label>
+							
+							<button type="button" ui:field="enregistrer" >Enregistrer</button>
+							<button type="button" ui:field="annuler" onclick="$('.infos_new_collaborateurs').fadeToggle('fast', 'linear');" >Annuler</button>
+
+						</fieldset>
+
+					</form>
+
+				</div>
+
+				<table id="table_infos_collaborateurs">
+					<tbody ui:field="tbody">
+						<tr>
+							<td class="table_ligne_haute">Nom</td>
+							<td class="table_ligne_haute">Prénom</td>
+							<td class="table_ligne_haute">Fonction</td>
+							<td class="table_ligne_haute">Profil Administratif</td>
+						</tr>
+						
+					</tbody>
+				</table>
+			</div>
+			<div class="clear_both"></div>
+		</div>
+	</div>
+
+
+
+</ui:UiBinder>

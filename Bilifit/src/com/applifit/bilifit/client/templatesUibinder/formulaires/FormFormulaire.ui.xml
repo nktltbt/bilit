@@ -1,0 +1,12 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+
+	<div>
+           <input style="width:150px;" name="renseigne" type="text" ui:field="form_nom" required="" />
+           <label for="renseigne">Nom</label>
+			<br/><br/>
+
+           <input style="width:150px;" name="le" type="text" ui:field="form_comment" required="" />
+           <label for="le">Commentaires</label> 
+      </div>
+</ui:UiBinder>

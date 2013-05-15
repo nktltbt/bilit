@@ -1,0 +1,581 @@
+/* CSS Document */
+.couleur_texte {
+	color: #65c4d9;
+}
+
+.couleur_tableau_clair {
+	background-color: #b7e3ee;
+}
+
+.couleur_tableau_fonce {
+	background-color: #51c7dd;
+}
+
+.menu_active {
+	color: #65c4d9;
+}
+/* COULEUR GENERALE DU CSS #65c4d9 */
+/* COULEUR GENERALE DU CSS #65c4d9 */
+/* COULEUR GENERALE DU CSS #65c4d9 */
+/* CSS ------ HEADER ------ */
+/* CSS ------ HEADER ------ */
+/* CSS ------ HEADER ------ */
+#header_barre_couleur {
+	background-color: #65c4d9;
+	/* Modifier selon la couleur général du thème */
+}
+
+#container_titre {
+	background-color: #65c4d9;
+	/* Modifier selon la couleur général du théme */
+}
+
+/* CSS ------ CONTAINER ------ */
+/* CSS ------ CONTAINER ------ */
+/* CSS ------ CONTAINER ------ */
+#container_principal_blanc {
+	margin: 0px;
+	padding-top: 0px;
+	width: 100%;
+}
+
+#container_principal {
+	
+}
+
+/* MENU FORMULAIRE */
+#menu_accueil {
+	position: absolute;
+	left: 50%;
+	width: 620px;
+	list-style: none;
+	margin-left: -294px;
+	margin-top: 100px;
+	border-bottom: dotted 2px #666;
+}
+
+#menu_accueil a {
+	float: left;
+	display: block;
+	margin: 20px;
+	border-bottom: solid 4px #fff;
+}
+
+#menu_accueil a:hover {
+	border-bottom: solid 4px #65c4d9;
+}
+
+/* CSS ------ CONTENU DE LA COLONNE GAUCHE ------ */
+/* CSS ------ CONTENU DE LA COLONNE GAUCHE ------ */
+#choix_objet_formulaire {
+	background-color: #daeef3;
+	height: 579px;
+	border-bottom: solid 7px #65c4d9;
+	width: 130px;
+	margin: 0px 0.7% 0px 1%;
+}
+
+#choix_objet_apercu {
+	height: 579px;
+	width: 130px;
+	margin: 0px 0.7% 0px 1%;
+}
+
+.choix_objet_formulaire {
+	background-color: #daeef3;
+	height: 579px;
+	width: 100%;
+	border-bottom: solid 7px #65c4d9;
+}
+
+#colonne_gauche {
+	width: 10%;
+	margin: 0px 0.7% 0px 1%;
+}
+
+#menu_formulaire a {
+	text-decoration: none;
+	text-align: center;
+	line-height: 28px;
+	font-weight: bold;
+	margin-bottom: 9px;
+	float: left;
+	width: 100%;
+	height: 30px;
+	background-color: #2a5d5f;
+	color: #daeef3;
+}
+
+#menu_formulaire a:hover {
+	background-color: #daeef3;
+	color: #2a5d5f;
+}
+
+/* CSS ------ CONTENU DE LA COLONNE CENTRALE ------ */
+/* CSS ------ CONTENU DE LA COLONNE CENTRALE ------ */
+#colonne_centrale {
+	float: left;
+	margin: 0px 0.5% 0px 0.5%;
+}
+
+#colonne_centrale_consulter {
+	width: 82%;
+	margin: 0px auto 0px auto;
+}
+
+.container_formulaire_type {
+	width: 270px;
+	height: 30px;
+	border: dashed 1px #9ab4bb;
+	margin: 1px;
+	padding: 0px;
+	float: left;
+}
+
+.container_formulaire_type_occupe {
+	width: 10%;
+	height: 30px;
+	border: dashed 1px #9ab4bb;
+	margin: 1px;
+	padding: 0px;
+	float: left;
+	background-color: #d2e5ea;
+}
+
+.container_formulaire_type_selection {
+	width: 10%;
+	height: 30px;
+	margin: 1px;
+	padding: 0px;
+	float: left;
+	border: dashed 1px #ff0000;
+}
+
+#contenu_principal_formulaire {
+	background-color: #daeef3;
+	height: 486px;
+	width: 95%;
+	padding: 7px 2% 7px 3%;
+	border-bottom: solid 7px #65c4d9;
+}
+
+.contenu_principal_formulaire {
+	background-color: #daeef3;
+	height: 486px;
+	width: 95%;
+	padding: 7px 2% 7px 3%;
+	border-bottom: solid 7px #65c4d9;
+}
+
+#contenu_principal_formulaire_consulter {
+	background-color: #daeef3;
+	height: 486px;
+	padding: 15px 0px 7px 15px;
+	border-bottom: solid 7px #65c4d9;
+}
+
+#entete_formulaire {
+	background-color: #65c4d9;
+	height: 69px;
+	margin-bottom: 10px;
+}
+
+/* CSS ------ CONTENU DE LA COLONNE DROITE ------ */
+/* CSS ------ CONTENU DE LA COLONNE DROITE ------ */
+#caracteristiques_formulaires {
+	background-color: #778384;
+	height: 69px;
+	margin-bottom: 10px;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+}
+
+#caracteristiques_detaillees_formulaires {
+	background-color: #daeef3;
+	height: 500px;
+	width: 100%;
+	border-bottom: solid 7px #65c4d9;
+}
+
+#caracteristiques_formulaires_selections {
+	margin-left: 25%;
+}
+
+#colonne_droite {
+	width: 10%;
+	margin: 0px 1% 0px 0.7%;
+}
+
+#table_search_formulaire {
+	width: 80%;
+	margin: auto;
+}
+
+#table_search_formulaire_consulter {
+	width: 30%;
+	float: left;
+	margin-right: 30px;
+}
+
+.titre_element_selectionne {
+	margin: 10px 0px 0px 10px;
+	font-weight: bold;
+}
+
+/* CSS ------ FORMULAIRE ------ */
+/* CSS ------ FORMULAIRE ------ */
+/* CSS ------ FORMULAIRE ------ */
+label.form_fond_blanc {
+	/* positionnement marge et taille */ /* styles de caractères */
+	font-size: 16px;
+	color: #56666b;
+	text-align: right;
+	margin-right: 10px;
+	float: left;
+}
+
+input.form_fond_blanc {
+	float: right;
+	font-size: 16px;
+	color: #4b4b4b;
+	text-shadow: 1px 1px 0px #e8eade;
+	width: 170px;
+	height: 22px;
+	-moz-box-shadow: 0px 1px 0px #f2f2f2;
+	-webkit-box-shadow: 0px 1px 0px #f2f2f2;
+	background: #f1f2f4;
+	background: -moz-linear-gradient(top, #f1f2f4 0%, #f8f9fb 20%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f1f2f4),
+		color-stop(20%, #f8f9fb));
+	border: 1px solid #b6b7b9;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+select.form_fond_blanc {
+	float: right;
+	font-size: 16px;
+	color: #4b4b4b;
+	text-shadow: 1px 1px 0px #e8eade;
+	height: 30px;
+	-moz-box-shadow: 0px 1px 0px #f2f2f2;
+	-webkit-box-shadow: 0px 1px 0px #f2f2f2;
+	background: #f1f2f4;
+	background: -moz-linear-gradient(top, #f1f2f4 0%, #f8f9fb 20%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f1f2f4),
+		color-stop(20%, #f8f9fb));
+	border: 1px solid #b6b7b9;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+input.form_fond_blanc[type=submit] {
+	cursor: pointer;
+	width: 22px;
+	height: 22px;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	background: #3b3b3b;
+	color: #fff;
+	font-weight: bold;
+}
+
+select {
+	height: 52px;
+}
+
+input.form_fond_blanc[type=submit]:hover {
+	background: #565656;
+}
+
+label {
+	height: 25px;
+	margin: 4px 3px 3px 3px;
+	float: right;
+	font-size: 14px;
+	color: #2a5d5f;
+	font-weight: 600;
+	display: block;
+}
+
+input {
+	float: right;
+	display: block;
+	margin: 3px;
+	border: none;
+}
+
+select {
+	float: right;
+	margin: 3px;
+}
+
+#form_formulaire {
+	margin: 0px;
+	border: none;
+	float: right;
+}
+
+.form_formulaire {
+	margin: 0px;
+	border: none;
+	float: left;
+}
+
+.caracteristiques_modifform {
+	margin-left: 5px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+/* CSS ----- SCROLLBAR ----- */
+/* CSS ----- SCROLLBAR ----- */
+/* CSS ----- SCROLLBAR ----- */
+.newScrollBar {
+	overflow-y: auto;
+}
+
+.deplaceStyle {
+	background-image: url("../images/Edit.png");
+	height: 15px;
+	width: 15px;
+	margin-top: 5px;
+	cursor: pointer;
+	float: right;
+	background-color: transparent;
+}
+
+.texteStyle {
+	background-image: url("../images/formulaire/ZoneText.png");
+	height: 27px;
+	width: 125px;
+	background-color: transparent;
+}
+
+.checkboxStyle {
+	background-image: url("../images/formulaire/CheckBox.png");
+	height: 27px;
+	width: 125px;
+	background-color: transparent;
+}
+
+.radioStyle {
+	background-image: url("../images/formulaire/Radio.png");
+	height: 27px;
+	width: 125px;
+	background-color: transparent;
+}
+.imageStyle {
+	background-image: url("../images/formulaire/Photo.png");
+	height: 27px;
+	width: 125px;
+	background-color: transparent;
+}
+.comboboxStyle {
+	background-image: url("../images/formulaire/ComboBox.png");
+	height: 27px;
+	width: 125px;
+	background-color: transparent;
+}
+
+.chiffreStyle {
+	background-image: url("../images/formulaire/Chiffre.png");
+	height: 27px;
+	width: 125px;
+	background-color: transparent;
+}
+
+.dateStyle {
+	background-image: url("../images/formulaire/Date.png");
+	height: 27px;
+	width: 125px;
+	background-color: transparent;
+}
+
+.timeStyle {
+	background-image: url("../images/formulaire/time.png");
+	height: 27px;
+	width: 109px;
+	background-color: transparent;
+}
+
+.container_formulaire_type label {
+	height: 25px;
+	margin: 0px 3px 3px 3px;
+	float: none;
+	font-size: 13px;
+	color: #2a5d5f;
+	font-weight: 100;
+	display: block;
+}
+
+input[type="checkbox"] {
+	float: left;
+}
+
+input[type="radio"] {
+	float: left;
+}
+
+input[type="number"] {
+	float: left;
+	height: 20px;
+}
+
+input[type="time"] {
+	height: 24px;
+}
+
+.inputLabel {
+	background-color: #ddd;
+	width: 56px;
+	float: left !important;
+	color: #555;
+}
+
+.gwt-ListBox {
+	width: 130px;
+	height: 20px;
+}
+
+.checkChoix input {
+	margin-left: 100px;
+}
+
+.labelChoix {
+	margin-right: 69px;
+	margin-left: 10px;
+}
+
+#option {
+	float: left;
+	height: 20px;
+}
+
+.deleteForm {
+	height: 15px;
+	width: 15px;
+	margin-top: 5px;
+	cursor: pointer;
+	float: right;
+}
+
+.style_grid_apercu td {
+	width: 270px;
+	margin: 1px;
+	padding: 0px;
+	float: left;
+}
+
+.style_text_apercu {
+	margin-right: 108px;
+	float: left;
+}
+
+.style_time_apercu input[type="time"] {
+	margin-right: 210px;
+	border: 1px solid #ccc;
+	border-top: 1px solid #999;
+}
+
+.style_number_apercu input[type="number"] {
+	margin-left: 0px;
+	border: 1px solid #ccc;
+	border-top: 1px solid #999;
+}
+
+.style_date_apercu input[type="date"] {
+	margin-right: 159px;
+	border: 1px solid #ccc;
+	border-top: 1px solid #999;
+}
+
+.style_choix_apercu input[type="checkbox"] {
+	margin-left: 25px;
+}
+
+.style_choix_apercu input[type="radio"] {
+	margin-left: 25px;
+}
+
+.style_choix_apercu label {
+	margin: 0px 0px 3px 0px;
+	float: none;
+	font-size: 14px;
+	color: #2a5d5f;
+	display: block;
+	font-weight: normal;
+	height: auto;
+	margin-left: 40px;
+	min-height: 40px;
+}
+
+.style_select_apercu {
+	margin-right: 140px;
+}
+
+.gwt-Button {
+	margin-left: 6px !important;
+}
+
+.demo-DualListExample,.demo-MouseListBox {
+	border: 1px solid gray;
+	background-color: white;
+	height: 130px;
+	display: block;
+	overflow-y: auto;
+}
+
+.lien_allocation {
+	color: #2a5d5f;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.lien_allocation:hover {
+	color: #2a5d5f;
+	text-decoration: none;
+}
+
+.img_edit img {
+	width: 30px;
+	cursor: pointer;
+}
+
+#formConsultation {
+	margin-left: 330px;
+	width: 900px;
+}
+
+.table_apercu {
+	width: 100%;
+}
+
+.table_apercu td {
+	width: 33%;
+}
+
+.divApercu {
+	float: left;
+	width: 32%;
+}
+
+.divApercu table {
+	width: 100%;
+}
+
+.divApercu tr {
+	height: 20px;
+}
+
+.trHeightNull {
+	display: none;
+}
+
+.lastChoix label {
+	min-height: 25px;
+}

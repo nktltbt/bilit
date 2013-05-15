@@ -1,0 +1,18 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+	<ui:style>
+		
+	</ui:style>
+	<div id="container">
+		<div class="clear_both">
+	   		<br/>   
+		   	<ul id="menu_accueil">
+		        <li><a href="administration_applifit.php"><img onmouseover="this.src='../images/accueil/bouton_administration_hover.jpg'" src="../images/accueil/bouton_administration.jpg" onmouseout="this.src='../images/accueil/bouton_administration.jpg'"/></a></li>
+		        <li><a href="formulaire_menu_applifit.php"><img onmouseover="this.src='../images/accueil/bouton_formulaire_hover.jpg'" src="../images/accueil/bouton_formulaire.jpg" onmouseout="this.src='../images/accueil/bouton_formulaire.jpg'"/></a></li>
+		        <li><a href="dashboard_menu_applifit.php"><img onmouseover="this.src='../images/accueil/bouton_dashboard_hover.jpg'" src="../images/accueil/bouton_dashboard.jpg" onmouseout="this.src='../images/accueil/bouton_dashboard.jpg'"/></a></li>
+		        <li><a href="bdd_applifit.php"><img onmouseover="this.src='../images/accueil/bouton_bdd_hover.jpg'" src="../images/accueil/bouton_bdd.jpg" onmouseout="this.src='../images/accueil/bouton_bdd.jpg'"/></a></li>
+		    </ul>
+		</div>
+	</div>
+	
+</ui:UiBinder>

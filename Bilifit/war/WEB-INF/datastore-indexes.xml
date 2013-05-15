@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<datastore-indexes autoGenerate="true">
+  <datastore-index kind="Formulaire" ancestor="false">
+ 		<property name="nom" direction="asc"/>
+        <property name="entreprise" direction="asc"/>
+        <property name="etat" direction="asc"/>
+        <property name="date_creation" direction="asc"/>
+  </datastore-index>
+  
+  <datastore-index kind="Formulaire" ancestor="false">
+ 		<property name="nom" direction="asc"/>
+        <property name="entreprise" direction="asc"/>
+        <property name="etat" direction="asc"/>
+  </datastore-index>
+  
+    <datastore-index kind="Compte" ancestor="false">
+  		<property name="nom" direction="asc"/>
+  		<property name="prenom" direction="asc"/>
+  		<property name="mail" direction="asc"/>
+  		<property name="entreprise" direction="asc"/>
+        <property name="etat" direction="asc"/>
+        <property name="profil" direction="asc"/>
+        <property name="fonction" direction="asc"/>
+    </datastore-index>
+    
+    <datastore-index kind="Entreprise" ancestor="false">
+    	<property name="raison_sociale" direction="asc"/>
+        <property name="date" direction="asc"/>
+        <property name="code_postal" direction="asc"/>
+        <property name="ville" direction="asc"/>
+        <property name="nom_contact" direction="asc"/>
+        <property name="prenom_contact" direction="asc"/>
+        <property name="offre_souscrite" direction="asc"/>
+    </datastore-index>
+    
+    <datastore-index kind="Compte" ancestor="false" source="manual">
+        <property name="etat" direction="asc"/>
+        <property name="profil" direction="asc"/>
+        <property name="prenom" direction="asc"/>
+    </datastore-index>
+    
+    <datastore-index kind="Compte" ancestor="false" source="manual">
+        <property name="etat" direction="asc"/>
+        <property name="profil" direction="asc"/>
+        <property name="nom" direction="asc"/>
+    </datastore-index>
+    
+    <datastore-index kind="Compte" ancestor="false" source="manual">
+        <property name="etat" direction="asc"/>
+        <property name="profil" direction="asc"/>
+        <property name="nom" direction="asc"/>
+        <property name="prenom" direction="asc"/>
+    </datastore-index>
+    
+    <datastore-index kind="Compte" ancestor="false" source="manual">
+        <property name="etat" direction="asc"/>
+        <property name="profil" direction="asc"/>
+        <property name="fonction" direction="asc"/>
+    </datastore-index>
+    
+    <datastore-index kind="Compte" ancestor="false" source="manual">
+        <property name="etat" direction="asc"/>
+        <property name="profil" direction="asc"/>
+        <property name="mail" direction="asc"/>
+    </datastore-index>
+    
+    <datastore-index kind="Compte" ancestor="false" source="manual">
+        <property name="etat" direction="asc"/>
+        <property name="profil" direction="asc"/>
+        <property name="mail" direction="asc"/>
+        <property name="fonction" direction="asc"/>
+        <property name="prenom" direction="asc"/>
+        <property name="nom" direction="asc"/>
+    </datastore-index>
+    
+    <datastore-index kind="Compte" ancestor="false" source="manual">
+        <property name="etat" direction="asc"/>
+        <property name="profil" direction="asc"/>
+        <property name="nom_bis" direction="asc"/>
+    </datastore-index>
+    
+    <datastore-index kind="Compte" ancestor="false" source="manual">
+        <property name="etat" direction="asc"/>
+        <property name="profil" direction="asc"/>
+        <property name="prenom_bis" direction="asc"/>
+    </datastore-index>
+    
+    <datastore-index kind="Compte" ancestor="false" source="manual">
+        <property name="etat" direction="asc"/>
+        <property name="profil" direction="asc"/>
+        <property name="fonction_bis" direction="asc"/>
+    </datastore-index>
+    
+    <datastore-index kind="Compte" ancestor="false" source="manual">
+        <property name="etat" direction="asc"/>
+        <property name="profil" direction="asc"/>
+        <property name="nom_bis" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Entreprise" ancestor="false" source="manual">
+        <property name="date" direction="asc"/>
+        <property name="cp_bis" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Entreprise" ancestor="false" source="manual">
+        <property name="date" direction="asc"/>
+        <property name="ville_bis" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Formulaire" ancestor="false" source="manual">
+        <property name="etat" direction="asc"/>
+        <property name="nom" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="Formulaire" ancestor="false" source="manual">
+        <property name="nom" direction="asc"/>
+        <property name="etat" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Formulaire" ancestor="false" source="manual">
+        <property name="entreprise" direction="asc"/>
+        <property name="etat" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Element_valeur" ancestor="false" source="manual">
+        <property name="element" direction="asc"/>
+        <property name="date" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="Element" ancestor="false" source="manual">
+        <property name="formulaire" direction="asc"/>
+        <property name="ordre" direction="asc"/>
+    </datastore-index>
+</datastore-indexes>

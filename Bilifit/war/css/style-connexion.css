@@ -1,0 +1,194 @@
+/* CSS Document */  
+
+body 
+	{ 
+	margin:0px !important;  
+	overflow:hidden !important;
+	padding:0px !important;
+	background-image:url("../images/fond.png") !important;
+
+	}  
+
+.connexion_colonne_centrale
+	{
+	position:relative;
+	width:318px;
+	height:100px;
+	margin:auto;
+	}
+
+
+#connexion 
+	{  
+	position:absolute;
+	width:241px;
+	height:174px;
+	margin:auto auto auto 40px;
+	
+	background-image:url("../images/connexion/fond_champs.png");
+	background-repeat:no-repeat;
+	z-index: 2;
+	}
+
+#connexion_logo
+	{
+ 
+	width:318px;
+	height:157px;
+	margin:150px auto 20px auto;
+	}
+	
+#connexion_trois_ronds
+	{  
+
+	width:61px;
+	height:13px;
+	margin:190px auto;
+	}		
+
+#nuage1
+	{
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	height:157px;
+	width:600px;
+	z-index: 1;
+	}
+
+#nuage2
+	{
+	position:absolute;
+	right:0px;
+	bottom:100px;
+	height:256px;
+	width:398px;
+	z-index: 1;
+	}
+#nuageb img
+{position:fixed;bottom:0px;left:0px;
+}
+#nuaged1 img
+{
+	right:0px;bottom:15%;
+	-webkit-animation:moveclouds 80s linear infinite;
+	-moz-animation:moveclouds 80s linear infinite;
+	-o-animation:moveclouds 80s linear infinite;
+}
+
+@-webkit-keyframes moveclouds {
+ 0% {
+ margin-left:100%;
+}
+ 100% {
+ margin-left:-100%;
+}
+}
+@-moz-keyframes moveclouds {
+ 0% {
+ margin-left:100%;
+}
+ 100% {
+ margin-left:-100%;
+}
+}
+@-o-keyframes moveclouds {
+ 0% {
+ margin-left:100%;
+}
+ 100% {
+ margin-left:-100%;
+}
+}
+#nuaged2 img
+{position:fixed;right:0px;bottom:20%;}
+#container 
+	{
+	width:100%;
+  	}
+  
+#container_titre 
+	{
+	background-color:#788385;
+	width:150px;
+	height:50px;
+	position:absolute;
+	top:0px;
+	left:70px;
+	text-align:center;
+	padding-top:180px;	
+	color:#FFF;
+	font-weight:bold;
+	}
+
+#footer 
+	{
+	background-color:#788385;
+	width:100%;
+	height:30px;
+	position:absolute;
+	bottom:0px;
+	}
+
+#partie_gauche 
+	{  
+	width:176px;
+	height:204px;
+	margin-left:60px;
+	margin-top:100px;
+	background-image:url("../images/connexion/partie_gauche.jpg");
+	background-repeat:no-repeat;
+	}
+
+/*FORMULAIRE*/
+/*FORMULAIRE*/
+/*FORMULAIRE*/
+
+.login{height:29px;margin:15px 0px 8px 20px;}
+.pass{height:29px;margin-left:20px;}
+.login input 
+	{
+	font-size: 14px; 
+	color: #4b4b4b; 
+	text-shadow: 1px 1px 0px #e8eade;
+	border:0px;
+	width: 167px; 
+	height: 29px; 
+	margin: 0px;
+	}
+.login img {position:relative;top:10px;}
+.pass img {position:relative;top:10px;}
+.pass input 
+	{
+	font-size: 14px; 
+	color: #4b4b4b; 
+	text-shadow: 1px 1px 0px #e8eade;
+	border:0px;
+	width: 134px; 
+	height: 29px; 
+	margin: 10px 0px;
+	}
+
+input[type=submit]
+	{
+	border: 0px;
+	margin:0px;
+	height:33px;
+	width:33px;
+	background-color:#06F;
+
+	}
+	
+.button_login{
+	cursor: pointer;
+	border: 0px;
+	background-color:#0a73ae;
+	height:29px;
+	width:33px;
+	margin:-8px 0px 0px -4px;
+	color:#FFF;
+}
+
+.pass_oublie a{margin:5px 20px 0px 0px;font-size:10px;text-align:right;color:#CCC;}
+
+.pass_oublie a:hover{color:#999;}

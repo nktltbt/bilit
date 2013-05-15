@@ -1,0 +1,82 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+	<div id="colonne_centrale_consulter">
+            	<div>
+                	<div style="margin-left:55%; margin-top: 18px;">
+                		<label style="float:none; font-size:16px">Sélectionnez un formulaire ...</label>
+                </div>
+                
+                    <form id="caracteristiques_formulaires_selections">
+                    
+                       <table style="float:left">
+                      		<tr>
+                      			
+                      			<td>
+                      				<fieldset id="form_formulaire">
+                         
+                         				<table>
+                         					<tr>
+                         						<td COLSPAN="2" style="text-align:center">
+                         							<p class="title couleur_texte" style="font-size:15px; margin-top:0px"><img src="../images/general/lunettes.png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rechercher</p>
+                         						</td>
+                         					</tr>
+                         					<tr>
+                         						<td>
+                         							 <label class="form_fond_blanc" for="form_formulaire_search_nom">Nom</label>
+                         						</td>
+                         						<td>
+                         							<input class="form_fond_blanc" style="width:300px;margin-right:35px;" name="form_formulaire_search_nom" type="text" ui:field="search_nom" required=""/>
+                         						</td>
+                         					</tr>
+                         					<tr>
+                         						<td>
+                         							<label class="form_fond_blanc" for="dform_formulaire_search_date">Date de création</label>
+                         						</td>
+                         						<td>
+                         							<div class="floatRight"><a ui:field="search_link" ><img onmouseover="this.src='../images/general/bouton_next_hover.png'" src="../images/general/bouton_next_down.png" onmouseout="this.src='../images/general/bouton_next_down.png'"/></a></div>
+                         							<input class="datepicker form_fond_blanc" style="width:300px;" name="form_formulaire_search_date" type="text" ui:field="search_date" required=""/>
+                         							 
+                         						</td>
+                         					
+                         					</tr>
+                         				</table>
+			                       
+			                        
+			                        
+			                        </fieldset>
+                      			</td>
+                      			
+                      		</tr>
+                       </table>
+                        
+                        <div>
+                        <fieldset id="form_formulaire">
+                        				<table>
+                        					<tr>
+                        						<td>
+                        							<label for="choix_form" style="float:none ; color:#65c4d9">Choisir dans la liste:</label>
+                        						</td>
+                        					</tr>
+                        					<tr>
+                        						<td>
+                        							 <select ui:field="formulaire" class="form_fond_blanc">
+			                         					<option value=" "> Veuillez choisir un formulaire ... </option>
+			                            			 </select>
+                        						</td>
+                        					</tr>
+                        					<tr>
+                        						<td>
+                        							 
+                        						</td>
+                        					</tr>
+                        				</table>
+                        	</fieldset>
+                        </div>
+                    	
+                        
+
+                    
+              		</form>
+            	</div>
+            </div>
+</ui:UiBinder>
