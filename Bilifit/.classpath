@@ -27,6 +27,7 @@
 	<classpathentry kind="lib" path="war/WEB-INF/lib/matheclipse-parser-0.0.10.jar"/>
 	<classpathentry kind="lib" path="javax.mail.jar" sourcepath="javax.mail.jar"/>
 	<classpathentry kind="lib" path="jxl.jar" sourcepath="jxl.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/javax.mail.jar"/>
 	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/gwt-dnd-3.1.2.jar"/>
 	<classpathentry kind="output" path="war/WEB-INF/classes"/>

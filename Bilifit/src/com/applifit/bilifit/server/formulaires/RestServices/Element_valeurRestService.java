@@ -159,7 +159,7 @@ public class Element_valeurRestService {
      }
      
      @PUT
-     @Path("/modifierValeur/valeur/{valeur}/element/{element}/indice/{indice}")
+	@Path("/modifierValeur/valeur/{valeur}/element/{element}/indice/{indice}")
      public Response updateValue(@PathParam("valeur") String valeur, @PathParam("element") long element, @PathParam("indice") int indice) {
     	 evdao.modifierValeur( valeur, element, indice);
     	 return Response.ok().build();

@@ -48,15 +48,15 @@
       <servlet-name>dk.lindhardt.sample.geie.SampleApplication GEIESampleService</servlet-name>
       <url-pattern>/bdd/GEIESampleService</url-pattern>
    </servlet-mapping>
-     <servlet>
-      <servlet-name>Upload</servlet-name>
-      <servlet-class>com.applifit.bilifit.server.formulaires.Upload</servlet-class>
-   </servlet>
-   
-   <servlet-mapping>
-      <servlet-name>Upload</servlet-name>
-      <url-pattern>/upload</url-pattern>
-   </servlet-mapping>
+	<!-- <servlet> -->
+	<!-- <servlet-name>Upload</servlet-name> -->
+	<!-- <servlet-class>com.applifit.bilifit.server.formulaires.Upload</servlet-class> -->
+	<!-- </servlet> -->
+
+	<!-- <servlet-mapping> -->
+	<!-- <servlet-name>Upload</servlet-name> -->
+	<!-- <url-pattern>/upload</url-pattern> -->
+	<!-- </servlet-mapping> -->
    
      <servlet>
       <servlet-name>Serve</servlet-name>
@@ -68,15 +68,15 @@
       <url-pattern>/serve/</url-pattern>
    </servlet-mapping>
    
-        <servlet>
-      <servlet-name>CreerUpload</servlet-name>
-      <servlet-class>com.applifit.bilifit.server.formulaires.CreerUpload</servlet-class>
-   </servlet>
+<!--         <servlet> -->
+<!--       <servlet-name>CreerUpload</servlet-name> -->
+<!--       <servlet-class>com.applifit.bilifit.server.formulaires.CreerUpload</servlet-class> -->
+<!--    </servlet> -->
    
-   <servlet-mapping>
-      <servlet-name>CreerUpload</servlet-name>
-      <url-pattern>/creerupload/</url-pattern>
-   </servlet-mapping>
+<!--    <servlet-mapping> -->
+<!--       <servlet-name>CreerUpload</servlet-name> -->
+<!--       <url-pattern>/creerupload/</url-pattern> -->
+<!--    </servlet-mapping> -->
  
 
 </web-app>

@@ -1,7 +1,6 @@
 package com.applifit.bilifit.client.formulaires;
 
 import java.util.ArrayList;
-import java.util.Calendar;
 
 import com.applifit.bilifit.client.outils.Constantes;
 import com.applifit.bilifit.client.outils.Utils;
@@ -200,6 +199,7 @@ public class Forumlaire_consulter_applifit implements EntryPoint {
 						formulaire_id = Long.parseLong(lb.getValue(lb
 								.getSelectedIndex()));
 						elementsAsString = "";
+						tables.clear();
 						// Récuperer les elements et parametres du formulaire
 						// et les afficher dans la zone de modification
 						chargerBody();
@@ -1361,11 +1361,6 @@ public class Forumlaire_consulter_applifit implements EntryPoint {
 
 	/*** Enregister le formulaire aprés modification ***/
 	public void enregistrerForm() {
-		Calendar c = Calendar.getInstance();
-		int m = c.get(Calendar.MONTH) + 1;
-		String date = c.get(Calendar.YEAR) + "-" + m + "-"
-				+ c.get(Calendar.DAY_OF_MONTH) + "%20"
-				+ c.get(Calendar.HOUR_OF_DAY) + "%3A" + c.get(Calendar.MINUTE);
 
 		for (int i = 0; i < elementsAsJSONArray.size(); i++) {
 
@@ -1475,7 +1470,7 @@ public class Forumlaire_consulter_applifit implements EntryPoint {
 							+ elementAsJSONObject.get("id").isNumber()
 									.toString() + "/indice/" + indice);
 			Window.alert(VALUE_URL + "modifierValeur/valeur/" + value
-					+ "/date/" + date + "/element/"
+					+ "/element/"
 					+ elementAsJSONObject.get("id").isNumber().toString()
 					+ "/indice/" + indice);
 			builder.setHeader("Content-Type", "application/json");
